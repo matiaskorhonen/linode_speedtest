@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'linode_speedtest'
+
+speedtest = LinodeSpeedtest.new
+
+speedtest.run
+
+exit 0
